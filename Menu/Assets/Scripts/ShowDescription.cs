@@ -57,7 +57,73 @@ public class ShowDescription : MonoBehaviour
                 KronenPrimeDescription.SetActive(false);
                 CerataDescription.SetActive(false);
                 break;
-               
+
+            case "ArcaPlasmor":
+                MagDescription.SetActive(false);
+                RevenantDescription.SetActive(false);
+                TenetArcaPlasmorDescription.SetActive(true);
+                FelarxDescription.SetActive(false);
+                EpitapheDescription.SetActive(false);
+                LaetumDescription.SetActive(false);
+                KronenPrimeDescription.SetActive(false);
+                CerataDescription.SetActive(false);
+                break;
+
+            case "Felarx":
+                MagDescription.SetActive(false);
+                RevenantDescription.SetActive(false);
+                TenetArcaPlasmorDescription.SetActive(false);
+                FelarxDescription.SetActive(true);
+                EpitapheDescription.SetActive(false);
+                LaetumDescription.SetActive(false);
+                KronenPrimeDescription.SetActive(false);
+                CerataDescription.SetActive(false);
+                break;
+
+            case "Epitaphe":
+                MagDescription.SetActive(false);
+                RevenantDescription.SetActive(false);
+                TenetArcaPlasmorDescription.SetActive(false);
+                FelarxDescription.SetActive(false);
+                EpitapheDescription.SetActive(true);
+                LaetumDescription.SetActive(false);
+                KronenPrimeDescription.SetActive(false);
+                CerataDescription.SetActive(false);
+                break;
+
+            case "Laetum":
+                MagDescription.SetActive(false);
+                RevenantDescription.SetActive(false);
+                TenetArcaPlasmorDescription.SetActive(false);
+                FelarxDescription.SetActive(false);
+                EpitapheDescription.SetActive(false);
+                LaetumDescription.SetActive(true);
+                KronenPrimeDescription.SetActive(false);
+                CerataDescription.SetActive(false);
+                break;
+
+            case "KronenPrime":
+                MagDescription.SetActive(false);
+                RevenantDescription.SetActive(false);
+                TenetArcaPlasmorDescription.SetActive(false);
+                FelarxDescription.SetActive(false);
+                EpitapheDescription.SetActive(false);
+                LaetumDescription.SetActive(false);
+                KronenPrimeDescription.SetActive(true);
+                CerataDescription.SetActive(false);
+                break;
+
+            case "Cerata":
+                MagDescription.SetActive(false);
+                RevenantDescription.SetActive(false);
+                TenetArcaPlasmorDescription.SetActive(false);
+                FelarxDescription.SetActive(false);
+                EpitapheDescription.SetActive(false);
+                LaetumDescription.SetActive(false);
+                KronenPrimeDescription.SetActive(false);
+                CerataDescription.SetActive(true);
+                break;
+
             default:
                 break;
 
