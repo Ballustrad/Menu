@@ -41,6 +41,8 @@ public class SwapGear : MonoBehaviour
     public GameObject MeleeWeaponCerataName;
 
 
+    
+    
 
     private void Update()
     {
@@ -175,11 +177,15 @@ public class SwapGear : MonoBehaviour
                 MeleePanelOpen = false;
                 break;
 
+            default:
+                break;
 
 
 
 
         }
     }
-        
-}
+    
+
+
+    }
