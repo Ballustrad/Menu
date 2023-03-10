@@ -10,5 +10,6 @@ public class ButtonClicked : MonoBehaviour
     public void playButton()
     {
         audioSource.Play();
+        
     }
 }
