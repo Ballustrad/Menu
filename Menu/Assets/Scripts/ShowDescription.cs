@@ -34,6 +34,7 @@ public class ShowDescription : MonoBehaviour
         swapGear.MainWeaponPanel.SetActive(false);
         swapGear.SecondaryWeaponPanel.SetActive(false);
         swapGear.MeleeWeaponPanel.SetActive(false);
+
         switch(name)
         {
             case "MagPrime":

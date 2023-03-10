@@ -347,8 +347,6 @@ GameObject:
   - component: {fileID: 18569284}
   - component: {fileID: 18569288}
   - component: {fileID: 18569287}
-  - component: {fileID: 18569286}
-  - component: {fileID: 18569285}
   m_Layer: 5
   m_Name: Critical Damage
   m_TagString: Untagged
@@ -377,69 +375,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &18569285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18569283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 18569286}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 18569286}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &18569286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18569283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &18569287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1580,8 +1515,6 @@ GameObject:
   - component: {fileID: 89569657}
   - component: {fileID: 89569661}
   - component: {fileID: 89569660}
-  - component: {fileID: 89569659}
-  - component: {fileID: 89569658}
   m_Layer: 5
   m_Name: Overall Damage
   m_TagString: Untagged
@@ -1610,69 +1543,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &89569658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 89569656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 89569659}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 89569659}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &89569659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 89569656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &89569660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2545,8 +2415,6 @@ GameObject:
   - component: {fileID: 132679579}
   - component: {fileID: 132679583}
   - component: {fileID: 132679582}
-  - component: {fileID: 132679581}
-  - component: {fileID: 132679580}
   m_Layer: 5
   m_Name: Status Chance
   m_TagString: Untagged
@@ -2575,69 +2443,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &132679580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132679578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 132679581}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 132679581}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &132679581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132679578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &132679582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3218,8 +3023,6 @@ GameObject:
   - component: {fileID: 179636980}
   - component: {fileID: 179636984}
   - component: {fileID: 179636983}
-  - component: {fileID: 179636982}
-  - component: {fileID: 179636981}
   m_Layer: 5
   m_Name: Status Type
   m_TagString: Untagged
@@ -3249,69 +3052,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &179636981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 179636979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 179636982}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 179636982}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &179636982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 179636979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &179636983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3893,7 +3633,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 200150198}
-  m_LocalRotation: {x: 0.7009074, y: 0.0016106095, z: -0.001582741, w: 0.7132487}
+  m_LocalRotation: {x: 0.7009074, y: 0.0016114048, z: -0.0015835229, w: 0.7132488}
   m_LocalPosition: {x: 922.43, y: -640.9, z: 4194.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5659,8 +5399,6 @@ GameObject:
   - component: {fileID: 319983709}
   - component: {fileID: 319983713}
   - component: {fileID: 319983712}
-  - component: {fileID: 319983711}
-  - component: {fileID: 319983710}
   m_Layer: 5
   m_Name: Fire rate
   m_TagString: Untagged
@@ -5689,69 +5427,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1327, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &319983710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319983708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 319983711}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 319983711}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &319983711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319983708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &319983712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7058,8 +6733,6 @@ GameObject:
   - component: {fileID: 358648578}
   - component: {fileID: 358648582}
   - component: {fileID: 358648581}
-  - component: {fileID: 358648580}
-  - component: {fileID: 358648579}
   m_Layer: 5
   m_Name: Stats
   m_TagString: Untagged
@@ -7087,69 +6760,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1448, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &358648579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 358648577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 358648580}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 358648580}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &358648580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 358648577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &358648581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7802,8 +7412,6 @@ GameObject:
   - component: {fileID: 380401907}
   - component: {fileID: 380401911}
   - component: {fileID: 380401910}
-  - component: {fileID: 380401909}
-  - component: {fileID: 380401908}
   m_Layer: 5
   m_Name: Critical Chance
   m_TagString: Untagged
@@ -7832,69 +7440,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1327, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &380401908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 380401906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 380401909}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 380401909}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &380401909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 380401906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &380401910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8273,8 +7818,6 @@ GameObject:
   - component: {fileID: 387494241}
   - component: {fileID: 387494245}
   - component: {fileID: 387494244}
-  - component: {fileID: 387494243}
-  - component: {fileID: 387494242}
   m_Layer: 5
   m_Name: Critical Chance
   m_TagString: Untagged
@@ -8303,69 +7846,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1327, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &387494242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 387494240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 387494243}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 387494243}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &387494243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 387494240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &387494244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8996,8 +8476,6 @@ GameObject:
   - component: {fileID: 410017922}
   - component: {fileID: 410017926}
   - component: {fileID: 410017925}
-  - component: {fileID: 410017924}
-  - component: {fileID: 410017923}
   m_Layer: 5
   m_Name: Critical Chance
   m_TagString: Untagged
@@ -9026,69 +8504,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1327, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &410017923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410017921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 410017924}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 410017924}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &410017924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410017921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &410017925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9274,8 +8689,6 @@ GameObject:
   - component: {fileID: 431897960}
   - component: {fileID: 431897964}
   - component: {fileID: 431897963}
-  - component: {fileID: 431897962}
-  - component: {fileID: 431897961}
   m_Layer: 5
   m_Name: Status Type
   m_TagString: Untagged
@@ -9304,69 +8717,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &431897961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 431897959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 431897962}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 431897962}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &431897962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 431897959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &431897963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10224,8 +9574,6 @@ GameObject:
   - component: {fileID: 481877597}
   - component: {fileID: 481877601}
   - component: {fileID: 481877600}
-  - component: {fileID: 481877599}
-  - component: {fileID: 481877598}
   m_Layer: 5
   m_Name: Fire rate
   m_TagString: Untagged
@@ -10254,69 +9602,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1327, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &481877598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 481877596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 481877599}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 481877599}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &481877599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 481877596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &481877600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10570,8 +9855,6 @@ GameObject:
   - component: {fileID: 490362212}
   - component: {fileID: 490362216}
   - component: {fileID: 490362215}
-  - component: {fileID: 490362214}
-  - component: {fileID: 490362213}
   m_Layer: 5
   m_Name: Status Chance
   m_TagString: Untagged
@@ -10600,69 +9883,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &490362213
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 490362211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 490362214}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 490362214}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &490362214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 490362211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &490362215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10771,8 +9991,6 @@ GameObject:
   - component: {fileID: 499956338}
   - component: {fileID: 499956342}
   - component: {fileID: 499956341}
-  - component: {fileID: 499956340}
-  - component: {fileID: 499956339}
   m_Layer: 5
   m_Name: Fire rate
   m_TagString: Untagged
@@ -10801,69 +10019,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1327, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &499956339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499956337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 499956340}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 499956340}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &499956340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499956337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &499956341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13170,7 +12325,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632980773}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 4296}
+  m_LocalPosition: {x: 0, y: 0, z: 4286.087}
   m_LocalScale: {x: 1, y: 0.5151799, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13180,8 +12335,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1204.33, y: -1571.0009}
-  m_SizeDelta: {x: 423, y: 803.1}
+  m_AnchoredPosition: {x: 1214.3152, y: -1571.0009}
+  m_SizeDelta: {x: 479.6305, y: 944.1548}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &632980775
 MonoBehaviour:
@@ -13203,8 +12358,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 81ccd7fa9c05503488f580668db47785, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -13470,8 +12625,6 @@ GameObject:
   - component: {fileID: 651229671}
   - component: {fileID: 651229675}
   - component: {fileID: 651229674}
-  - component: {fileID: 651229673}
-  - component: {fileID: 651229672}
   m_Layer: 5
   m_Name: Critical Chance
   m_TagString: Untagged
@@ -13500,69 +12653,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1327, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &651229672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651229670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 651229673}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 651229673}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &651229673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651229670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &651229674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13749,8 +12839,6 @@ GameObject:
   - component: {fileID: 672671902}
   - component: {fileID: 672671906}
   - component: {fileID: 672671905}
-  - component: {fileID: 672671904}
-  - component: {fileID: 672671903}
   m_Layer: 5
   m_Name: Critical Damage
   m_TagString: Untagged
@@ -13779,69 +12867,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &672671903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672671901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 672671904}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 672671904}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &672671904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672671901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &672671905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14602,8 +13627,6 @@ GameObject:
   - component: {fileID: 709736580}
   - component: {fileID: 709736584}
   - component: {fileID: 709736583}
-  - component: {fileID: 709736582}
-  - component: {fileID: 709736581}
   m_Layer: 5
   m_Name: Weapon type
   m_TagString: Untagged
@@ -14632,69 +13655,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1321, y: -1571.0015}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &709736581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709736579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 709736582}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 709736582}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &709736582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709736579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &709736583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15896,8 +14856,6 @@ GameObject:
   - component: {fileID: 775566143}
   - component: {fileID: 775566147}
   - component: {fileID: 775566146}
-  - component: {fileID: 775566145}
-  - component: {fileID: 775566144}
   m_Layer: 5
   m_Name: Critical Damage
   m_TagString: Untagged
@@ -15926,69 +14884,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &775566144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775566142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 775566145}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 775566145}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &775566145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775566142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &775566146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17546,8 +16441,6 @@ GameObject:
   - component: {fileID: 822672134}
   - component: {fileID: 822672138}
   - component: {fileID: 822672137}
-  - component: {fileID: 822672136}
-  - component: {fileID: 822672135}
   m_Layer: 5
   m_Name: Critical Chance
   m_TagString: Untagged
@@ -17576,69 +16469,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1327, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &822672135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 822672133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 822672136}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 822672136}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &822672136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 822672133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &822672137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17869,8 +16699,6 @@ GameObject:
   - component: {fileID: 837891920}
   - component: {fileID: 837891924}
   - component: {fileID: 837891923}
-  - component: {fileID: 837891922}
-  - component: {fileID: 837891921}
   m_Layer: 5
   m_Name: Stats
   m_TagString: Untagged
@@ -17898,69 +16726,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1448, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &837891921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837891919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 837891922}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 837891922}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &837891922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837891919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &837891923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18843,8 +17608,6 @@ GameObject:
   - component: {fileID: 861751941}
   - component: {fileID: 861751945}
   - component: {fileID: 861751944}
-  - component: {fileID: 861751943}
-  - component: {fileID: 861751942}
   m_Layer: 5
   m_Name: Fire rate
   m_TagString: Untagged
@@ -18873,69 +17636,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1327, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &861751942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 861751940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 861751943}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 861751943}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &861751943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 861751940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &861751944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20183,7 +18883,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912054844}
-  m_LocalRotation: {x: 0.011915583, y: -0.0022699696, z: 0.00002705, w: 0.99992645}
+  m_LocalRotation: {x: 0.011915582, y: -0.0022699684, z: 0.000027049988, w: 0.99992645}
   m_LocalPosition: {x: 4458, y: 514, z: 74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -20242,8 +18942,6 @@ GameObject:
   - component: {fileID: 923243632}
   - component: {fileID: 923243636}
   - component: {fileID: 923243635}
-  - component: {fileID: 923243634}
-  - component: {fileID: 923243633}
   m_Layer: 5
   m_Name: Stats
   m_TagString: Untagged
@@ -20271,69 +18969,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1448, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &923243633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 923243631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 923243634}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 923243634}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &923243634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 923243631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &923243635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20990,8 +19625,6 @@ GameObject:
   - component: {fileID: 962343446}
   - component: {fileID: 962343450}
   - component: {fileID: 962343449}
-  - component: {fileID: 962343448}
-  - component: {fileID: 962343447}
   m_Layer: 5
   m_Name: Fire rate
   m_TagString: Untagged
@@ -21020,69 +19653,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1327, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &962343447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 962343445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 962343448}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 962343448}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &962343448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 962343445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &962343449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21257,7 +19827,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.7009074, y: 0.0016106095, z: -0.001582741, w: 0.7132487}
+  m_LocalRotation: {x: 0.7009074, y: 0.0016114048, z: -0.0015835229, w: 0.7132488}
   m_LocalPosition: {x: 922.43, y: -640.9, z: 4194.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -22403,8 +20973,6 @@ GameObject:
   - component: {fileID: 1034501390}
   - component: {fileID: 1034501394}
   - component: {fileID: 1034501393}
-  - component: {fileID: 1034501392}
-  - component: {fileID: 1034501391}
   m_Layer: 5
   m_Name: Weapon type
   m_TagString: Untagged
@@ -22433,69 +21001,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1321, y: -1571.0015}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1034501391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1034501389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1034501392}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1034501392}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1034501392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1034501389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1034501393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23310,8 +21815,6 @@ GameObject:
   - component: {fileID: 1090799158}
   - component: {fileID: 1090799162}
   - component: {fileID: 1090799161}
-  - component: {fileID: 1090799160}
-  - component: {fileID: 1090799159}
   m_Layer: 5
   m_Name: Critical Chance
   m_TagString: Untagged
@@ -23340,69 +21843,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1327, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1090799159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1090799157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1090799160}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1090799160}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1090799160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1090799157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1090799161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23713,8 +22153,6 @@ GameObject:
   - component: {fileID: 1113415422}
   - component: {fileID: 1113415426}
   - component: {fileID: 1113415425}
-  - component: {fileID: 1113415424}
-  - component: {fileID: 1113415423}
   m_Layer: 5
   m_Name: Fire rate
   m_TagString: Untagged
@@ -23743,69 +22181,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1327, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1113415423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1113415421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1113415424}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1113415424}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1113415424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1113415421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1113415425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24467,8 +22842,6 @@ GameObject:
   - component: {fileID: 1136366069}
   - component: {fileID: 1136366073}
   - component: {fileID: 1136366072}
-  - component: {fileID: 1136366071}
-  - component: {fileID: 1136366070}
   m_Layer: 5
   m_Name: Status Chance
   m_TagString: Untagged
@@ -24497,69 +22870,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1136366070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1136366068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1136366071}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1136366071}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1136366071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1136366068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1136366072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25648,8 +23958,6 @@ GameObject:
   - component: {fileID: 1176744757}
   - component: {fileID: 1176744761}
   - component: {fileID: 1176744760}
-  - component: {fileID: 1176744759}
-  - component: {fileID: 1176744758}
   m_Layer: 5
   m_Name: Weapon type
   m_TagString: Untagged
@@ -25678,69 +23986,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1321, y: -1571.0015}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1176744758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1176744756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1176744759}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1176744759}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1176744759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1176744756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1176744760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26334,8 +24579,6 @@ GameObject:
   - component: {fileID: 1211315276}
   - component: {fileID: 1211315280}
   - component: {fileID: 1211315279}
-  - component: {fileID: 1211315278}
-  - component: {fileID: 1211315277}
   m_Layer: 5
   m_Name: Overall Damage
   m_TagString: Untagged
@@ -26364,69 +24607,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1211315277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211315275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1211315278}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1211315278}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1211315278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211315275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1211315279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26671,8 +24851,6 @@ GameObject:
   - component: {fileID: 1218240875}
   - component: {fileID: 1218240879}
   - component: {fileID: 1218240878}
-  - component: {fileID: 1218240877}
-  - component: {fileID: 1218240876}
   m_Layer: 5
   m_Name: Critical Damage
   m_TagString: Untagged
@@ -26701,69 +24879,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1218240876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1218240874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1218240877}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1218240877}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1218240877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1218240874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1218240878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27481,8 +25596,6 @@ GameObject:
   - component: {fileID: 1248098670}
   - component: {fileID: 1248098674}
   - component: {fileID: 1248098673}
-  - component: {fileID: 1248098672}
-  - component: {fileID: 1248098671}
   m_Layer: 5
   m_Name: Overall Damage
   m_TagString: Untagged
@@ -27511,69 +25624,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1248098671
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1248098669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1248098672}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1248098672}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1248098672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1248098669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1248098673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29870,8 +27920,6 @@ GameObject:
   - component: {fileID: 1352580691}
   - component: {fileID: 1352580695}
   - component: {fileID: 1352580694}
-  - component: {fileID: 1352580693}
-  - component: {fileID: 1352580692}
   m_Layer: 5
   m_Name: Stats
   m_TagString: Untagged
@@ -29899,69 +27947,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1448, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1352580692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1352580690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1352580693}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1352580693}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1352580693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1352580690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1352580694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30274,8 +28259,6 @@ GameObject:
   - component: {fileID: 1364666791}
   - component: {fileID: 1364666795}
   - component: {fileID: 1364666794}
-  - component: {fileID: 1364666793}
-  - component: {fileID: 1364666792}
   m_Layer: 5
   m_Name: Weapon type
   m_TagString: Untagged
@@ -30304,69 +28287,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1321, y: -1571.0015}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1364666792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1364666790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1364666793}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1364666793}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1364666793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1364666790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1364666794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32764,8 +30684,6 @@ GameObject:
   - component: {fileID: 1513605138}
   - component: {fileID: 1513605142}
   - component: {fileID: 1513605141}
-  - component: {fileID: 1513605140}
-  - component: {fileID: 1513605139}
   m_Layer: 5
   m_Name: Weapon type
   m_TagString: Untagged
@@ -32794,69 +30712,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1321, y: -1571.0015}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1513605139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513605137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513605140}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513605140}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1513605140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513605137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1513605141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33449,8 +31304,6 @@ GameObject:
   - component: {fileID: 1569992921}
   - component: {fileID: 1569992925}
   - component: {fileID: 1569992924}
-  - component: {fileID: 1569992923}
-  - component: {fileID: 1569992922}
   m_Layer: 5
   m_Name: Status Type
   m_TagString: Untagged
@@ -33481,69 +31334,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1569992922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569992920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1569992923}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1569992923}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1569992923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569992920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1569992924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33852,8 +31642,6 @@ GameObject:
   - component: {fileID: 1579536764}
   - component: {fileID: 1579536768}
   - component: {fileID: 1579536767}
-  - component: {fileID: 1579536766}
-  - component: {fileID: 1579536765}
   m_Layer: 5
   m_Name: Status Type
   m_TagString: Untagged
@@ -33882,69 +31670,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1579536765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1579536763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1579536766}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1579536766}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1579536766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1579536763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1579536767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34053,8 +31778,6 @@ GameObject:
   - component: {fileID: 1580479639}
   - component: {fileID: 1580479643}
   - component: {fileID: 1580479642}
-  - component: {fileID: 1580479641}
-  - component: {fileID: 1580479640}
   m_Layer: 5
   m_Name: Overall Damage
   m_TagString: Untagged
@@ -34083,69 +31806,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1580479640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1580479638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1580479641}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1580479641}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1580479641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1580479638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1580479642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36842,7 +34502,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -37055,8 +34715,6 @@ GameObject:
   - component: {fileID: 1737528081}
   - component: {fileID: 1737528085}
   - component: {fileID: 1737528084}
-  - component: {fileID: 1737528083}
-  - component: {fileID: 1737528082}
   m_Layer: 5
   m_Name: Status Type
   m_TagString: Untagged
@@ -37086,69 +34744,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1737528082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1737528080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1737528083}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1737528083}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1737528083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1737528080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1737528084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38922,8 +36517,6 @@ GameObject:
   - component: {fileID: 1781391078}
   - component: {fileID: 1781391082}
   - component: {fileID: 1781391081}
-  - component: {fileID: 1781391080}
-  - component: {fileID: 1781391079}
   m_Layer: 5
   m_Name: Status Chance
   m_TagString: Untagged
@@ -38952,69 +36545,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1781391079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1781391077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1781391080}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1781391080}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1781391080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1781391077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1781391081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40245,8 +37775,6 @@ GameObject:
   - component: {fileID: 1828672270}
   - component: {fileID: 1828672274}
   - component: {fileID: 1828672273}
-  - component: {fileID: 1828672272}
-  - component: {fileID: 1828672271}
   m_Layer: 5
   m_Name: Critical Damage
   m_TagString: Untagged
@@ -40275,69 +37803,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1828672271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828672269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1828672272}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1828672272}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1828672272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828672269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1828672273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41275,8 +38740,6 @@ GameObject:
   - component: {fileID: 1874240899}
   - component: {fileID: 1874240903}
   - component: {fileID: 1874240902}
-  - component: {fileID: 1874240901}
-  - component: {fileID: 1874240900}
   m_Layer: 5
   m_Name: Weapon type
   m_TagString: Untagged
@@ -41305,69 +38768,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1321, y: -1571.0015}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1874240900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874240898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1874240901}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1874240901}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1874240901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874240898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1874240902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41476,8 +38876,6 @@ GameObject:
   - component: {fileID: 1883311129}
   - component: {fileID: 1883311133}
   - component: {fileID: 1883311132}
-  - component: {fileID: 1883311131}
-  - component: {fileID: 1883311130}
   m_Layer: 5
   m_Name: Stats
   m_TagString: Untagged
@@ -41505,69 +38903,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1448, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1883311130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1883311128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1883311131}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1883311131}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1883311131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1883311128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1883311132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42309,8 +39644,6 @@ GameObject:
   - component: {fileID: 1901651901}
   - component: {fileID: 1901651905}
   - component: {fileID: 1901651904}
-  - component: {fileID: 1901651903}
-  - component: {fileID: 1901651902}
   m_Layer: 5
   m_Name: Overall Damage
   m_TagString: Untagged
@@ -42339,69 +39672,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1901651902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901651900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1901651903}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1901651903}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1901651903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901651900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1901651904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43917,8 +41187,6 @@ GameObject:
   - component: {fileID: 1943949253}
   - component: {fileID: 1943949257}
   - component: {fileID: 1943949256}
-  - component: {fileID: 1943949255}
-  - component: {fileID: 1943949254}
   m_Layer: 5
   m_Name: Overall Damage
   m_TagString: Untagged
@@ -43947,69 +41215,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1943949254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1943949252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1943949255}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1943949255}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1943949255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1943949252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1943949256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44874,8 +42079,6 @@ GameObject:
   - component: {fileID: 1998387604}
   - component: {fileID: 1998387608}
   - component: {fileID: 1998387607}
-  - component: {fileID: 1998387606}
-  - component: {fileID: 1998387605}
   m_Layer: 5
   m_Name: Critical Damage
   m_TagString: Untagged
@@ -44904,69 +42107,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1998387605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1998387603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1998387606}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1998387606}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1998387606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1998387603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &1998387607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45711,8 +42851,6 @@ GameObject:
   - component: {fileID: 2030311805}
   - component: {fileID: 2030311809}
   - component: {fileID: 2030311808}
-  - component: {fileID: 2030311807}
-  - component: {fileID: 2030311806}
   m_Layer: 5
   m_Name: Status Chance
   m_TagString: Untagged
@@ -45741,69 +42879,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2030311806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030311804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2030311807}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2030311807}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &2030311807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030311804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &2030311808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46470,8 +43545,6 @@ GameObject:
   - component: {fileID: 2066105864}
   - component: {fileID: 2066105868}
   - component: {fileID: 2066105867}
-  - component: {fileID: 2066105866}
-  - component: {fileID: 2066105865}
   m_Layer: 5
   m_Name: Stats
   m_TagString: Untagged
@@ -46499,69 +43572,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1448, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2066105865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2066105863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2066105866}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2066105866}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &2066105866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2066105863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &2066105867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47745,8 +44755,6 @@ GameObject:
   - component: {fileID: 2120977528}
   - component: {fileID: 2120977532}
   - component: {fileID: 2120977531}
-  - component: {fileID: 2120977530}
-  - component: {fileID: 2120977529}
   m_Layer: 5
   m_Name: Status Chance
   m_TagString: Untagged
@@ -47775,69 +44783,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2120977529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2120977527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2120977530}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2120977530}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &2120977530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2120977527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &2120977531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48490,8 +45435,6 @@ GameObject:
   - component: {fileID: 2137869144}
   - component: {fileID: 2137869148}
   - component: {fileID: 2137869147}
-  - component: {fileID: 2137869146}
-  - component: {fileID: 2137869145}
   m_Layer: 5
   m_Name: Status Type
   m_TagString: Untagged
@@ -48521,69 +45464,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1330, y: -1571}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2137869145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137869143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2137869146}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2137869146}
-          m_TargetAssemblyTypeName: HoverTip, Assembly-CSharp
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &2137869146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137869143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60cf809b89e3f7c4d95134921d2fd79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HoverTipPrefab: {fileID: 632980773}
-  textWindow: {fileID: 1731833928}
-  tipToShow: "Convert a target into a zealous thrall. Thralls turn on their allies
-    and enthrall through damage. On death, they disintegrate into a damaging pillar
-    of energy. The thrall horde remains under Revenant\u2019s spell until this Ability
-    runs out."
 --- !u!114 &2137869147
 MonoBehaviour:
   m_ObjectHideFlags: 0
